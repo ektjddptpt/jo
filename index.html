@@ -282,18 +282,19 @@
                 <div class="h-50"></div>
             </div>
             <div class="col-md-8" data-aos="fade-up">
+            <iframe id="iframe1" name="iframe1" style="display:none"></iframe>
             <form
-              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfvWkcGOp97YH1DxQe79kI2YDKcgNZa2sFWOwI4ZUPPLcRWvQ/formResponse"
-              method="POST"
+              method="get"
               id="tmContactForm"
               class="tm-bg-white-transparent"
               novalidate="novalidate"
+              target="iframe1"
             >
               <div class="form-group">
                 <input
                   type="text"
                   id="name"
-                  name="entry.1543440306"
+                  name="name"
                   class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
                   placeholder="이름"
                   required
@@ -303,7 +304,7 @@
                 <input
                   type="text"
                   id="phone number"
-                  name="entry.1241731144"
+                  name="phone number"
                   class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
                   placeholder="연락처"
                   required
@@ -314,7 +315,7 @@
                 <input
                   type="text"
                   id="kakaotalk"
-                  name="entry.1529529947"
+                  name="kakaotalk"
                   class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
                   placeholder="카카오톡 ID"
                   required
@@ -324,7 +325,7 @@
                 <textarea
                   rows="4"
                   id="message"
-                  name="entry.922444022"
+                  name="message"
                   class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
                   placeholder="내용"
                   required
